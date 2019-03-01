@@ -28,7 +28,8 @@ export default class Comment extends Component {
   componentDidMount() {
     this.reloadData();
   }
-
+  // I really like how you've documented a lot of your files, making it easy for anyone to understand what you're trying to do. I think some additional organization in your file structure would have helped, including placing all of the react components into their own folder.
+  
   // reload data when state change (i.e., player votes change)
   reloadData() {
     fetch("/api/getPlayerById/" + this.props.comment.personId)

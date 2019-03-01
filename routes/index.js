@@ -19,6 +19,10 @@ var router = express.Router();
 //   });
 // }
 
+
+// I love you handled all of these functions simply & cleanly to result a robust page that does what you set out to do. Again, I really appreciate the documentation. Also, ensuring your database is secure on github and providing a json for the demo was well handled. Some additional documentation would have been nice, but all of your naming conventions enable a user to understand your intent. Great job!
+
+
 function connect(callback) {
   var MongoClient = require("mongodb").MongoClient;
 
